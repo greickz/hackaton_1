@@ -39,7 +39,7 @@ def Graficos():
         y='Tempo_parado_dias',
         color='Setor',
         color_discrete_sequence=px.colors.qualitative.Set2,
-        title='⏱ Tempo Parado (>9 dias) - Manutenção Corretiva',
+        title='⏱ Tempo Parado menor que 9 dias - Manutenção Corretiva',
         labels={'Tempo_parado_dias': 'Dias Parado', 'Id_equipamento': 'Equipamento'}
     )
     fig_tempo.update_layout(
